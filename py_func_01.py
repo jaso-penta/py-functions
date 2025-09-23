@@ -1,13 +1,13 @@
 
 
-def zbroji(a, b):
-    zbroj = a + b
-    print(zbroj)
+def podijeli(a, b):
+    print(a / b)
 
 
 x = 4
 y = 5
 
 
-zbroji(5, 15)
-zbroji(x, y)
+podijeli(5, 15)
+podijeli(b=15, a=5)
+podijeli(x, y)
